@@ -257,7 +257,7 @@ def run_main():
 
     print("Checking for open slots")
     for crn in crns_to_watch:
-        if classes_dict[crn]["Full"]:
+        if not classes_dict[crn]["Full"]:
             print("CRN:",crn," isn't full\nAttempting to register")
             print(classes_dict[crn])
 
