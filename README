@@ -1,0 +1,12 @@
+to run, use the venv or use your own with the requirements.txt
+Also package chromedriver must be installed via your distros package manager, or brew. Windows idk how to add
+
+
+before running:
+put the crns (one per line) in the crns file
+and put your username lastF# and password in the creds file
+
+in the config.json, set the cycles to how many times you want this to run, -1 for inf
+and set the wait_time to how many seconds between attempts
+
+to run enter cmd 'python main.py > log.txt' and it will write to log
